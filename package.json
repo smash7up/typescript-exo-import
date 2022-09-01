@@ -16,7 +16,13 @@
   "author": "Wild Code School",
   "license": "ISC",
   "devDependencies": {
+    "@typescript-eslint/parser": "^5.36.1",
     "concurrently": "^7.0.0",
-    "husky": "^7.0.0"
+    "husky": "^7.0.0",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "eslint-import-resolver-typescript": "^3.5.0"
   }
 }
